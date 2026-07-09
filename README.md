@@ -31,6 +31,10 @@ Yes. Switching the language takes effect immediately on the next spoken segment,
 **I found a bug or have a feature request — where do I report it?**
 Please [open an issue](https://github.com/tapacuk93/infinite-ai-radio-support/issues) on this repository, or email us directly (below).
 
+## Privacy
+
+See our [Privacy Policy](PRIVACY.md) for details on how your API key, topics, and images are handled.
+
 ## Contact
 
 For support, questions, or feedback, email: **tapacuk93@gmail.com**
