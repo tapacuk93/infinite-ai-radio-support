@@ -1,6 +1,6 @@
 # Infinite AI Radio — Support
 
-Infinite AI Radio generates an endless, ever-deepening spoken monologue on any topic you tune to, powered by Claude.
+Infinite AI Radio generates an endless, ever-deepening spoken monologue on any topic you tune to, powered by Claude. It's available on iPhone, iPad, and Mac — each device keeps its own local broadcast history (see Privacy below), so it isn't synced between them.
 
 ## FAQ
 
@@ -22,8 +22,8 @@ Yes. A history view keeps every station you've tuned to, including how deep you 
 **Are there images to go along with the broadcast?**
 Yes. Infinite AI Radio looks up a relevant photo for each segment as it plays. You can toggle between text-only, image-only, and combined display modes at any time.
 
-**Can I listen in the background, or control playback from the lock screen?**
-Yes. Audio keeps playing in the background, and you can play/pause, skip, and go back using Control Center, the lock screen, or connected headphones — the current topic and artwork show up in Now Playing.
+**Can I listen in the background, or control playback without switching back to the app?**
+Yes. Audio keeps playing in the background, and you can play/pause, skip, and go back from Control Center, the Lock Screen (iPhone/iPad), the Now Playing widget in the Mac menu bar, or connected headphones — the current topic and artwork show up in Now Playing on every platform.
 
 **Can I change the narration language?**
 Yes. Switching the language takes effect immediately on the next spoken segment, with a matching high-quality voice picked automatically for that language.

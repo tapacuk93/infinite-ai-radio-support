@@ -1,8 +1,8 @@
 # Privacy Policy
 
-**Last updated: 2026-07-09**
+**Last updated: 2026-07-10**
 
-Infinite AI Radio is designed to collect as little data as possible. This policy explains exactly what the app does and does not do with your information.
+Infinite AI Radio (iPhone, iPad, and Mac) is designed to collect as little data as possible. This policy explains exactly what the app does and does not do with your information, and applies the same way on every platform.
 
 ## Data we don't collect
 
