@@ -16,6 +16,9 @@ Yes. Use the back button to return to where you came from, or the dive button to
 **Why does the broadcast pause sometimes?**
 Playback is generated and spoken one segment at a time. If you pause or the app is backgrounded, generation pauses too, so you're never charged for audio you haven't listened to yet.
 
+**The broadcast stopped with a "Signal lost" message — what do I do?**
+That means a call to Anthropic's API failed, most commonly because the key was revoked, your Anthropic account has run out of credits, or you've hit a rate limit — not something the app itself can recover from. Check your key and account status at [console.anthropic.com](https://console.anthropic.com/settings/billing), then tap Tune In to reconnect.
+
 **Can I revisit past stations?**
 Yes. A history view keeps every station you've tuned to, including how deep you dove into each one, so you can jump back in exactly where you left off.
 
