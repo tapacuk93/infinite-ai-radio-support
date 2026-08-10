@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated: 2026-08-08**
+**Last updated: 2026-08-10**
 
 Infinite AI Radio (iPhone, iPad, and Mac) is designed to collect as little data as possible. This policy explains exactly what the app does and does not do with your information, and applies the same way on every platform.
 
@@ -14,11 +14,23 @@ The app does **not** ask you for your own AI provider API key. Instead, every re
 
 **1 AICoin = 1 AI API call.** Each broadcast segment, narration clip, or generated image costs exactly 1 AICoin, debited from your AICoin wallet at the moment of the call. In Settings, you pick which AI narrates the broadcast — Claude (Anthropic), OpenAI, or Gemini (Google) — and can optionally enable ElevenLabs narration and/or OpenAI or Stability AI image generation; all of these are billed the same way, 1 AICoin per call, through the same relay.
 
+### The provider credential is shared by everyone
+
+There is one relay account per AI provider, and every user's requests go through it. To the provider, all of this app's traffic looks like a single customer — ours — rather than like you.
+
+That has consequences worth stating plainly:
+
+- **Your usage affects other listeners.** Rate limits, quotas, and spending caps apply to the shared credential as a whole. Heavy use, or a burst of requests, can slow down or temporarily block generation for everyone using the app, not just for you.
+- **So does what you type.** Providers enforce their own usage policies at the account level. Content that trips a provider's safety systems is attributed to the shared credential, and repeated violations can get that credential rate-limited, restricted, or suspended — which would stop the app working for every user until it is resolved. Please don't send anything you wouldn't want charged to a shared account.
+- **Provider-side features are account-scoped.** Anything a provider does per account rather than per end user — abuse scoring, caching, aggregate logging — covers all of this app's traffic together.
+
+What this does **not** mean: your topics and generated segments are not pooled, mixed into other people's broadcasts, or shown to other users by the app. Each broadcast is generated from your own request and returned only to your device. The sharing described here is of the provider *account*, not of your content.
+
 ## AICoin wallet
 
 Your wallet is identified by a keypair generated and stored on your device (Keychain) — we never see your private key. There are two ways to get AICoin:
 - **Buy it**, via an in-app purchase processed entirely by Apple through StoreKit. We never see or store your payment details — Apple handles billing and receipts directly. A successful purchase credits your wallet by contacting `proxy.aicoin.oeaio.com` with Apple's own signed proof of purchase.
-- **Receive a transfer** from another AICoin wallet (yours on another device, or someone else's).
+- **Receive a transfer** from another AICoin wallet (yours on another device, or someone else's). Sending and receiving is not offered inside the app; it happens through the web wallet at [aicoin.oeaio.com](https://aicoin.oeaio.com), and coins arriving that way are credited to the same wallet address the app uses.
 
 Your wallet address and balance are stored server-side at `proxy.aicoin.oeaio.com` (see the [aicoin.oeaio.com](https://aicoin.oeaio.com) site for how the ledger works) — this is necessary for the wallet to function across devices and to debit calls, and is not linked to your name, email, or Apple ID.
 
